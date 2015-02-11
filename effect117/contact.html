@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" /> 
+        <title>
+            Contact
+        </title>
+        <link rel="stylesheet" type="text/css" href="main.css" />
+        <link rel="stylesheet" type="text/css" href="rps.css" />
+    </head>
+    
+    <body id="body">
+    
+        <nav id="top-menu">
+            <ul>
+                <li> <a href="indexMain.html">about</a> </li>
+                <li> <a href="projects.html">projects</a> </li>
+                <li> <a href="courses.html">courses</a> </li>
+            <li> <a href="skills.html">skills</a> </li>
+                <li> <a href="contact.html">contact</a> </li>
+            </ul>
+        </nav>
+        
+        <div id="maindiv">
+            <header>
+                <hgroup>
+                    <h1> contact </h1> 
+                </hgroup>
+    
+            </header>
+        
+            <article class="story">
+                
+                <form id="form" method="post" action="mail.php" data-ajax="false">
+                    Name: <input id="box" type="text" id="naam" name="naam" value="" placeholder="Name" required/><br>
+                    E-mail: <input id="box" type="email" id="mail" name="mail" value="" placeholder="E-mail" required/><br>
+                    Subject: <input id="box" type="text" id="onderwerp" name="onderwerp" value="" placeholder="Subject" required/><br/>
+                    Message:<br>
+                    <textarea style="height:100px;" style="width:300px;" id="bericht" name="bericht" placeholder="Enter your message here..." required></textarea> <br />
+                    <input id="box" type="submit" value="Send" name="submit" class="btn">
+                </form>
+                
+                <!--h1> courses currently being taken </h1>
+                <p>
+                    Details go here
+                </p>
+                <h1> courses previously taken</h1>
+                <p>
+                    info here
+                </p>
+                <h1>courses being taken on lynda.com</h1>
+                <p>
+                    details here
+                </p-->
+
+            </article>
+    
+            
+            <aside class="about">
+                <section>
+                    <a class="plugin" href="https://plus.google.com/111946618863782805076? rel=author"><img class="plugin" src="whiteg+.png"></a>
+                </section>
+                <section>
+                    <a class="linkedin" href="http://www.linkedin.com/in/josephhilland"><img class="linkedin" src="whitelinkedin.png"></a>
+                </section>
+                <section>
+                    <a class="tweet" href="http://www.twitter.com/HillandJoseph"><img class="tweet" src="whitetwitter.png"></a>
+                </section>
+            </aside>  
+            <div class="clear"></div>
+        </div>
+        
+    </body>
+    
+</html>
